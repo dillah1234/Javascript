@@ -41,3 +41,10 @@ var totalharga=totalbuku_1+totalbuku_2-discount
 console.log(totalharga)
 console.log('ini buku '+buku_1+' dan buku '+buku_2+totalharga)
 var totalhargasetelahdiscount_1
+
+let x = 10;
+ 
+let y = "5"; 
+console.log(x + y);
+
+alert("selamat datang")
