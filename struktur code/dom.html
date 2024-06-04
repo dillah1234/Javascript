@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom</title>
+  </head>
+  <body>
+    <!-- <div id="contohElement">ini adalah elemen dengan ID contohElement.</div> -->
+    <!-- <div id="hasil"></div> -->
+    <!-- nomer 1 -->
+    <!-- <p id="myParagraph">Hafizh Quran Mahir IT</p> -->
+    <!-- <h1 id="myProject">ini adalah teks sekarang</h1> -->
+    <!-- <div id="hasil">10</div> -->
+   
+<!-- <h1>abu dzar</h1>
+    <ul id="myList">
+        
+    </ul> -->
+    
+    <input type="text" id="ukuranBaju" placeholder="masukkan ukuran baju">
+    <!-- <button onclick="myFunction"()>klik saya</button> -->
+    <button onclick="console.log(document.getElementById('ukuranBaju').value)">click me</button>
+    ,<button onclick="myFunction()">pukul aku</button>
+
+    <input type="text" id="ukuranCelana" placeholder="Masukkan ukuran celana">
+<button onclick="FunctionUkuranCelana()">hold</button>
+<ul id="hasilInput"></ul>
+
+    <script>
+    //   nomer 1
+    //   var elem = document.getElementById('myParagraph')
+    //   console.log(elem.innerHTML)
+    //   alert('myParagraph')
+
+    //   nomer 2
+    //   var elem = document.getElementById('myProject')
+    //   console.log(elem.innerText)
+    //   elem.innerText = 'myfriend'
+
+    //   nomer 2
+    //   let myNumber = 10;
+    //   document.getElementById("hasil").innerText = myNumber;
+
+    // nomer 3
+    // var elem = document.getElementById('myList')
+    // var paragraphElement = document.createElement('li')
+    // paragraphElement.innerText = 'list makan siang'
+    // document.getElementById('myList').appendChild(paragraphElement)
+
+    function myFunction() {
+      console.log(document.getElementById('ukuranBaju').value)
+    }
+
+    var isiCelana = document.getElementById('ukuranCelana');
+    console.log(document.getElementById('ukuranCelana').value);
+    document.getElementById('ukuranCelana')
+    var paragraph = document.createElement('li')
+    paragraph,innerte
+
+    function FunctionUkuranCelana() {
+      var inputUkuranCelana = document.getElementById('ukuranCelana').value
+      console.log(inputUkuranCelana)
+      let paragraph = document.createElement('li')
+      paragraph.innerText =inputUkuranCelana
+      document.getElementById('hasilInput').appendChild(paragraph);
+    }
+
+
+
+
+
+    </script>
+  </body>
+</html>
